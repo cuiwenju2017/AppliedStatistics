@@ -39,6 +39,7 @@ public class PinyinUtils {
 
     /**
      * 获取第一个字的拼音首字母
+     *
      * @param chinese
      * @return
      */
@@ -64,5 +65,4 @@ public class PinyinUtils {
         }
         return pinYinBF.toString().replaceAll("\\W", "").trim();
     }
-
 }

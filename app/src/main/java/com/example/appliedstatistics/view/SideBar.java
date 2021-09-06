@@ -10,8 +10,12 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.TextView;
+
 import com.example.appliedstatistics.R;
 
+/**
+ * 自定义侧边栏
+ */
 public class SideBar extends View {
     // 触摸事件
     private OnTouchingLetterChangedListener onTouchingLetterChangedListener;
@@ -126,5 +130,4 @@ public class SideBar extends View {
     public interface OnTouchingLetterChangedListener {
         void onTouchingLetterChanged(String s);
     }
-
 }

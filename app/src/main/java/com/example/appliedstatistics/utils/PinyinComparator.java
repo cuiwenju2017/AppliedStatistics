@@ -4,6 +4,9 @@ import com.example.appliedstatistics.bean.AppInfo;
 
 import java.util.Comparator;
 
+/**
+ * 侧边栏特殊符号显示处理
+ */
 public class PinyinComparator implements Comparator<AppInfo> {
     @Override
     public int compare(AppInfo o1, AppInfo o2) {
